@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>BF_001 Beadandó</title>
   <link rel="stylesheet" href="public/css/bootstrap.min.css">
-  <link rel="stylesheet" href="kepgaleria.css">
+  <link rel="stylesheet" href="videogyujtemeny.css">
   <script src="public/js/jquery-3.6.0.min.js"></script>
   <script src="public/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -26,41 +26,56 @@
   </header>
 
   <main>
-    <div class="wrapper">
+    <div class="wrapper container-fluid">
 
-      <div class="page1">
-        <div class="embed-responsive embed-responsive-21by9" class="video">
+      <div class="mySlides row">
+        <div class="embed-responsive embed-responsive-21by9 col-2" class="video">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kdC29i1cNuc"></iframe>
+          <div class="text">Videó 1</div>
         </div>
 
-        <div class="embed-responsive embed-responsive-16by9 mt-5" class="video">
+        <div class="embed-responsive embed-responsive-16by9 col-2" class="video">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TqsawJlHqn8"></iframe>
-          </iframe>
+          <div class="text">Videó 2</div>
         </div>
 
-        <div class="embed-responsive embed-responsive-4by3 mt-5" class="video">
+        <div class="embed-responsive embed-responsive-16by9 col-2" class="video">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TqsawJlHqn8"></iframe>
+          <div class="text">Videó 3</div>
+        </div>
+
+        <div class="embed-responsive embed-responsive-4by3 col-2" class="video">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1Bi-kJSayek"></iframe>
+          <div class="text">Videó 4</div>
         </div>
 
-        <div class="embed-responsive embed-responsive-1by1 mt-5" class="video">
+        <div class="embed-responsive embed-responsive-1by1 col-2" class="video">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oGyb9DEo2yM"></iframe>
-        </div>
-
-        <div class="embed-responsive embed-responsive-1by1 mt-5" class="video">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1gzkRtrdHi8"></iframe>
+          <div class="text">Videó 5</div>
         </div>
       </div>
 
-      <div class="page2">
 
+      <div class="mySlides row">
+        <div class="embed-responsive embed-responsive-1by1 col-2" class="video">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1gzkRtrdHi8"></iframe>
+          <div class="text">Videó 6</div>
+        </div>
+      </div>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
       </div>
 
     </div>
   </main>
 
   <footer>
-    <a type="button" href="#top"><button class="btn btn-success">Ugrás a lap tetejére</button></a>
+    <a type="button" href="#top"><button class="btn btn-success mb-3 ml-3">Ugrás a lap tetejére</button></a>
   </footer>
+
+  <script src="videogyujtemeny.js"></script>
 </body>
 
 </html>
